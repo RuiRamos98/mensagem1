@@ -2,4 +2,5 @@
     <string name="app_name">mensagem</string>
     <string name="button">Button</string>
     <string name="name">Name</string>
+    <string name="mensagem_recebida">Mensagem Recebida:</string>
 </resources>
