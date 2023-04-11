@@ -1,5 +1,6 @@
 package com.example.mensagem
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -20,5 +21,8 @@ class MainActivity : AppCompatActivity() {
 
         val editTextMensagem=findViewById<EditText>(R.id.editTextMensagem)
         val mensagem=editTextMensagem.text.toString()
+
+        val intent=Intent(this,mostraMensagemActivity::class.java)
+        startActivity(intent)
     }
 }
