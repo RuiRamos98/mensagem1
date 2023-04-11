@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         val intent=Intent(this,mostraMensagemActivity::class.java)
-        intent.putExtra(EXTRA_MENSAGEM,mensagem)
+        intent.putExtra(EXTRA_MENSAGEM,mensagem)//
 
         startActivity(intent)
 
